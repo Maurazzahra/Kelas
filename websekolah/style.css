@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+table.layout {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+.header-content {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.header {
+    background-color: #0073e6;
+    color: white;
+}
+
+.header .logo img {
+    height: 50px;
+    padding: 10px;
+}
+
+.header .search-bar {
+    text-align: center;
+    padding: 10px;
+}
+
+.header .search-bar input {
+    padding: 5px;
+    font-size: 1em;
+}
+
+.header .search-bar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: white;
+    color: #0073e6;
+    border: none;
+    cursor: pointer;
+}
+
+.header .navbar {
+    text-align: right;
+    padding: 10px;
+}
+
+.header .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .navbar ul li {
+    margin-left: 20px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: white;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content table th,
+.content table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.content table th {
+    background-color: #0073e6;
+    color: white;
+}
+
+.sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
