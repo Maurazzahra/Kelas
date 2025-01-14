@@ -1,0 +1,92 @@
+/* Umum */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ac6eef, #506ea2);
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    text-shadow: 2px 2px #000;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+/* Info permainan */
+#score, #level, #timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: inline-block;
+    text-shadow: 1px 1px #000;
+}
+
+/* Container maze */
+#maze-container {
+    display: grid;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 2px;
+}
+
+/* Sel maze */
+.cell {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.wall {
+    background-color: #333;
+    border: 1px solid #000;
+}
+
+.path {
+    background-color: #f1f1f1;
+}
+
+.start {
+    background-color: #4caf50;
+    border: 2px solid #3e8e41;
+    box-shadow: 0 0 10px #4caf50;
+}
+
+.end {
+    background-color: #e91e63;
+    border: 2px solid #d81b60;
+    box-shadow: 0 0 10px #e91e63;
+}
+
+.player {
+    background-color: #a7ceed;
+    border: 2px solid #1e88e5;
+    box-shadow: 0 0 10px #2196f3;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    #score, #level, #timer {
+        font-size: 1.2rem;
+    }
+    .cell {
+        width: 25px;
+        height: 25px;
+    }
+}
